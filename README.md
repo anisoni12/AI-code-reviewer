@@ -199,9 +199,11 @@ GitHub's API allows 5000 requests per hour. Posting one comment per line on a la
 
 ## Deployment
 
-The bot is deployed on [Railway](https://railway.app). Push to `master` and Railway auto-deploys.
+The bot is deployed on [Render](https://render.com). Push to `master` and Render auto-deploys.
 
-Update your GitHub webhook URL to the Railway production URL after deployment.
+Live URL: [https://ai-code-reviewer-75zq.onrender.com](https://ai-code-reviewer-75zq.onrender.com)
+
+> Note: The free tier spins down after 15 minutes of inactivity. The first webhook after inactivity may take ~30 seconds to wake up.
 
 ---
 
