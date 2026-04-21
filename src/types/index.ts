@@ -11,13 +11,14 @@ export interface DiffFile {
 }
 
 export interface DiffLine {
-  lineNumber: number;
+  position: number;
   content: string;
   type: 'added' | 'removed' | 'context';
 }
 
 export interface ReviewComment {
   path: string;
-  line: number;
+  position?: number;
+  line?: number;
   body: string;
 }
