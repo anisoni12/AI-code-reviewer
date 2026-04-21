@@ -11,3 +11,4 @@ function getUser(id) {
 function divide(a, b) {
     return a / b;
 }
+eval("console.log('hello')");
